@@ -1,6 +1,5 @@
 // Buat Lu Yang Jual Sc Ini Yang Jujur Jangan Samp Nipu Apalagi Lari Dari Tanggung Jawab
-
-// Base Haikal Hw Mods : Copyan Dari Base Dika
+// Ingat Hargailah Creatornya :)
 
 
 const fs = require('fs')
@@ -21,9 +20,9 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 //=================================================//
 //—————「 Set Kebutuhan Button & Kontak 」—————//
 //ubah aja kalau ada yang gapunya gsh di hps anggap aja credits :), note tanda ' gausah di hapus!
-global.youtube = 'https://youtube.com/c/UCXb9jWAemn6RZ2gmImFG0uQ' // ubah aia
+global.youtube = 'https://youtube.com/c/UCXb9jWAemn6RZ2gmImFG0uQ' // ubah aja
 global.ig = '@ristarivica' // ubah aja
-global.email = 'admin@breaksek.com'
+global.email = 'admin@breaksek.com' // ubah aja
 global.region = 'indonesia'
 //—————「 Set Nama Own & Bot 」—————//
 global.ownername = 'breaksek' //ubah jadi nama mu, note tanda ' gausah di hapus!
