@@ -1,9 +1,3 @@
-/*
-› Create By Haikal
-› Base Ori Haikal
-
-🌷 KALAU MAU RENAME TARO CREDITS GUA : rexju☆ */
-
 require('./hwkal')
 const { default: makeWASocket, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
 const fs = require('fs')
