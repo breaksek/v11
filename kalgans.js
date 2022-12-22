@@ -144,7 +144,7 @@ if (anu.action == 'add') {
 var buffer = await getBuffer(ppuser)
 let fgclink = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6281214281312@whatsapp.net"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
 he = `HELLO 👋 SELAMAT DATANG DI GROUP ${metadata.subject} @${num.split("@")[0]}\n\n${metadata.desc}`
-let link = `https://youtube.com/c/HwModsWa857`
+let link = `https://youtube.com/c/breaksek`
 let buttons = [
 {buttonId: `rexju☆`, buttonText: {displayText: buttonvirus}, type: 1},
 ]
@@ -156,12 +156,12 @@ mentions: [num],
 fileName: `HELLO 👋 SELAMAT DATANG DI GROUP ${metadata.subject}`,
 fileLength: 99999999999999,
 caption: he,
-footer: `© HamzX BOTZ☆`,
+footer: `© breaksekBOT`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: `Jangan Lupa Tersenyum ☺️`,
-body: `SUBSCRIBE HamzX BOTZ☆`,
+body: `SUBSCRIBE breaksek`,
 mediaType:2,
 thumbnail: buffer,
 sourceUrl: link,
@@ -171,7 +171,7 @@ haikal.sendMessage(anu.id, buttonMessage, {quoted:fgclink})
 } else if (anu.action == 'remove') {
 let fgclink = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6281214281312@whatsapp.net"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
 he = `SELAMAT TINGGAL KAWAN 👋 ${metadata.subject} @${num.split("@")[0]}\n\n${metadata.desc}`
-let link = `https://youtube.com/c/HwModsWa857`
+let link = `https://youtube.com/c/breaksek`
 let buttons = [
 {buttonId: `rexju☆`, buttonText: {displayText: buttonvirus}, type: 1},
 ]
@@ -183,7 +183,7 @@ mentions: [num],
 fileName: `SELAMAT TINGGAL 👋 ${metadata.subject}`,
 fileLength: 99999999999999,
 caption: he,
-footer: `© HamzX BOTZ☆`,
+footer: `© breaksekBOT`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
