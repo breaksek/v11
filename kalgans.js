@@ -62,7 +62,7 @@ async function startHaikal() {
 const haikal = makeWASocket({
 logger: pino({ level: 'silent' }),
 printQRInTerminal: true,
-browser: ['HamzX BOTZ','Safari','1.0.0'],
+browser: ['breaksekBOT','Safari','1.0.0'],
 auth: state})
 //=================================================//
 store.bind(haikal.ev)
@@ -142,7 +142,7 @@ ppgroup = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Ga
 //=================================================//
 if (anu.action == 'add') {
 var buffer = await getBuffer(ppuser)
-let fgclink = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6281214281312@whatsapp.net"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+let fgclink = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6281331184338@whatsapp.net"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
 he = `HELLO 👋 SELAMAT DATANG DI GROUP ${metadata.subject} @${num.split("@")[0]}\n\n${metadata.desc}`
 let link = `https://youtube.com/c/breaksek`
 let buttons = [
