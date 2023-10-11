@@ -1,11 +1,11 @@
 {
-"name": "haikal-hw",
+"name": "breaksek-bot",
 "version": "3.0.0",
 "description": "WhatsApp Using Lib Baileys Multi Device",
-"main": "kalgans.js",
+"main": "index.js",
 "type": "commonjs",
 "scripts": {
-"start": "node kalgans.js"
+"start": "npm start"
 },
 "keywords": [
 "termux",
@@ -18,7 +18,7 @@
 "bot-md",
 "multi-device"
 ],
-"author": "Haikal Hw.",
+"author": "breaksek",
 "license": "MIT",
 "dependencies": {
 "@adiwajshing/baileys": "github:zeeone-ofc/baileys",
